@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">FrostWalker Signet</title>
+  <desc id="desc">Ein schwarzes, abstraktes Sternzeichen aus unregelmäßigen Balken.</desc>
+  <g fill="#090909" transform="translate(256 256)">
+    <rect x="-24" y="-178" width="48" height="356" rx="2" transform="rotate(7)"/>
+    <rect x="-22" y="-154" width="44" height="308" rx="2" transform="rotate(43)"/>
+    <rect x="-22" y="-151" width="44" height="302" rx="2" transform="rotate(78)"/>
+    <rect x="-22" y="-143" width="44" height="286" rx="2" transform="rotate(119)"/>
+    <rect x="-22" y="-142" width="44" height="284" rx="2" transform="rotate(139)"/>
+    <rect x="-20" y="-126" width="40" height="252" rx="2" transform="rotate(165)"/>
+    <circle r="60"/>
+  </g>
+</svg>

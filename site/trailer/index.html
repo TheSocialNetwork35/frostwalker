@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive public product trailer for FrostWalker, an independent Minecraft Java launcher in active development.">
+  <meta name="theme-color" content="#090909">
+  <title>FrostWalker — Interactive Trailer</title>
+  <link rel="icon" href="/frostwalker-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/trailer/trailer.css">
+</head>
+<body>
+  <main class="trailer" data-trailer>
+    <header>
+      <a href="/" class="trailer-brand"><img src="/frostwalker-mark.svg" alt="" width="30" height="30">FrostWalker</a>
+      <span>INTERACTIVE PRODUCT TRAILER · ALPHA 0.3</span>
+    </header>
+
+    <div class="stage" aria-live="polite">
+      <section class="scene scene-1 active" data-scene="0">
+        <div class="mark-wrap"><img src="/frostwalker-mark.svg" alt="FrostWalker" width="180" height="180"></div>
+        <p>FROSTWALKER PRESENTS</p>
+      </section>
+      <section class="scene scene-2" data-scene="1">
+        <p class="kicker">THE LAUNCHER, RETHOUGHT</p>
+        <h1>One click.<br><em>Then Minecraft.</em></h1>
+        <div class="voxel-field" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+      </section>
+      <section class="scene scene-3" data-scene="2">
+        <div class="scene-copy"><p class="kicker">SEARCH AS YOU TYPE</p><h2>Modrinth.<br>Built right in.</h2><p>Mods, packs, shaders and smart compatibility filters.</p></div>
+        <div class="trailer-search" aria-hidden="true"><div class="input">⌕ <span>performance</span><b>12 results</b></div><div class="result"><i class="lime">S</i><span><b>Sodium</b><small>Rendering engine</small></span><em>＋</em></div><div class="result"><i class="orange">L</i><span><b>Lithium</b><small>Game optimization</small></span><em>＋</em></div></div>
+      </section>
+      <section class="scene scene-4" data-scene="3">
+        <div class="speed-lines" aria-hidden="true"></div>
+        <p class="kicker">BUILT FOR FLOW</p><h2>Fast launch.<br>Fast Alt-Tab.</h2><div class="big-number">&lt;1<span>sec target</span></div>
+      </section>
+      <section class="scene scene-5" data-scene="4">
+        <div class="scene-copy"><p class="kicker">YOUR WORLDS, ORGANIZED</p><h2>Clean instances.<br>No mystery folders.</h2></div>
+        <div class="cards" aria-hidden="true"><article><span>01</span><b>Survival 1.21</b><small>Fabric · 12 mods</small></article><article><span>02</span><b>Creative Lab</b><small>Vanilla · Latest</small></article><article><span>03</span><b>Performance</b><small>Balanced profile</small></article></div>
+      </section>
+      <section class="scene scene-6" data-scene="5">
+        <img src="/frostwalker-mark.svg" alt="FrostWalker" width="120" height="120"><p class="kicker">WINDOWS · macOS</p><h2>FrostWalker</h2><p>Independent. Transparent. In active development.</p><div class="final-links"><a href="/">Project page</a><a href="https://github.com/TheSocialNetwork35/frostwalker">GitHub ↗</a></div>
+      </section>
+    </div>
+
+    <footer class="controls">
+      <button type="button" data-toggle aria-label="Trailer abspielen oder pausieren"><span class="play-icon">Ⅱ</span></button>
+      <div class="timeline"><span data-progress></span></div>
+      <span data-time>00:00 / 00:42</span>
+      <button type="button" data-restart>↻ Restart</button>
+    </footer>
+  </main>
+  <script src="/trailer/trailer.js"></script>
+</body>
+</html>

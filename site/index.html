@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FrostWalker ist ein unabhängiger Minecraft-Java-Launcher für Windows und macOS – schnell, verständlich und Modrinth-first.">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta property="og:title" content="FrostWalker — One click to Minecraft">
+  <meta property="og:description" content="Öffentliche Projektpräsentation des unabhängigen FrostWalker Launchers.">
+  <meta property="og:type" content="website">
+  <title>FrostWalker — One click to Minecraft</title>
+  <link rel="icon" href="/frostwalker-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="nav shell">
+    <a class="brand" href="#top" aria-label="FrostWalker Startseite">
+      <img src="/frostwalker-mark.svg" alt="" width="34" height="34">
+      <span>FrostWalker</span>
+    </a>
+    <nav aria-label="Hauptnavigation">
+      <a href="#product">Produkt</a>
+      <a href="#status">Status</a>
+      <a href="/trailer/">Trailer</a>
+    </nav>
+    <a class="button button-small button-dark" data-github href="https://github.com/TheSocialNetwork35/frostwalker">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Native Alpha 0.3 · Public development</p>
+        <h1>One click.<br><span>Then Minecraft.</span></h1>
+        <p class="lede">Ein unabhängiger Java-Launcher, der Modrinth, schnelle Instanzen und eine ruhige Oberfläche zu einem verständlichen Startweg verbindet.</p>
+        <div class="actions">
+          <a class="button button-dark" href="/trailer/">Trailer ansehen <span aria-hidden="true">▶</span></a>
+          <a class="button button-light" href="#status">Projektstatus</a>
+        </div>
+        <p class="microcopy">Entwickelt für Windows und macOS · Quelloffen dokumentiert</p>
+      </div>
+
+      <div class="launcher-stage reveal" aria-label="Illustration des FrostWalker Launchers">
+        <div class="cube cube-one" aria-hidden="true"></div>
+        <div class="cube cube-two" aria-hidden="true"></div>
+        <div class="launcher-window">
+          <div class="window-bar">
+            <div class="traffic"><i></i><i></i><i></i></div>
+            <span>FrostWalker</span>
+            <span class="window-status"><i></i> Ready</span>
+          </div>
+          <div class="launcher-body">
+            <aside class="launcher-nav" aria-hidden="true">
+              <img src="/frostwalker-mark.svg" alt="" width="38" height="38">
+              <span class="nav-pill active"></span><span class="nav-pill"></span><span class="nav-pill"></span><span class="nav-pill"></span>
+            </aside>
+            <div class="launcher-content">
+              <div class="content-top"><span class="tag">BALANCED</span><span class="avatar">FW</span></div>
+              <div>
+                <p class="overline">READY TO PLAY</p>
+                <h2>FrostWalker<br>1.21</h2>
+                <p class="muted">Fabric · Performance profile · 12 mods</p>
+              </div>
+              <button class="play-demo" type="button" data-demo-play><span>Play</span><i>→</i></button>
+            </div>
+          </div>
+          <div class="launch-overlay" data-launch-overlay aria-hidden="true">
+            <img src="/frostwalker-mark.svg" alt="" width="72" height="72">
+            <strong data-launch-text>Checking instance</strong>
+            <div class="launch-track"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="Kernbereiche">
+      <div class="shell proof-grid">
+        <span>01 · MODRINTH FIRST</span><span>02 · NATIVE DESKTOP</span><span>03 · ISOLATED INSTANCES</span><span>04 · FAST ALT-TAB</span>
+      </div>
+    </section>
+
+    <section id="product" class="section shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">THE PRODUCT</p>
+        <h2>Weniger Launcher.<br>Mehr spielen.</h2>
+        <p>FrostWalker ordnet die komplizierten Teile von modifiziertem Minecraft und lässt die wichtigen Entscheidungen sichtbar.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature feature-wide feature-search reveal">
+          <div class="feature-copy"><span class="index">01</span><h3>Modrinth, ohne Umwege.</h3><p>Suche während der Eingabe, intelligente Filter und vorgeladene Ergebnisse beim Scrollen.</p></div>
+          <div class="search-demo" aria-hidden="true">
+            <div class="search-bar"><span>⌕</span><b data-search-word>performance</b><i>⌘ K</i></div>
+            <div class="mod-row"><span class="mod-icon green">S</span><div><b>Sodium</b><small>Modern rendering engine</small></div><button>＋</button></div>
+            <div class="mod-row"><span class="mod-icon orange">L</span><div><b>Lithium</b><small>Game logic optimization</small></div><button>＋</button></div>
+            <div class="mod-row"><span class="mod-icon blue">F</span><div><b>FerriteCore</b><small>Memory usage improvements</small></div><button>＋</button></div>
+          </div>
+        </article>
+
+        <article class="feature feature-dark reveal">
+          <div class="feature-copy"><span class="index">02</span><h3>Eine Instanz.<br>Ein Zuhause.</h3><p>Version, Mods, Welten und Logs bleiben getrennt, reparierbar und verständlich.</p></div>
+          <div class="instance-stack" aria-hidden="true"><span>Survival 1.21</span><span>Creative Lab</span><span>Performance</span></div>
+        </article>
+
+        <article class="feature feature-accent reveal">
+          <div class="feature-copy"><span class="index">03</span><h3>Schnell rein.<br>Schnell raus.</h3><p>Kuratiertes Performance-Profil und Borderless Fullscreen für flüssiges Alt-Tab.</p></div>
+          <div class="metric" aria-hidden="true"><strong>&lt; 1s</strong><span>Ziel: warmer Launcher-Start</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="status" class="section status-section shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">PUBLIC DEVELOPMENT</p>
+        <h2>Gebaut mit offenem Visier.</h2>
+      </div>
+      <div class="status-board reveal">
+        <div class="status-intro">
+          <span class="alpha-badge">ALPHA 0.3</span>
+          <h3>Desktop core in active development</h3>
+          <p>Der native Tauri-/Rust-Client, Modrinth-Suche, Instanzverwaltung und Minecraft-Installationspfad sind implementiert. Produktionsfreigaben und Release-Signierung stehen vor der öffentlichen Beta noch aus.</p>
+          <a class="text-link" data-github href="https://github.com/TheSocialNetwork35/frostwalker">Source & Dokumentation ansehen →</a>
+        </div>
+        <ol class="milestones">
+          <li class="done"><span>01</span><div><b>Product foundation</b><small>Designsystem · Architektur · Native shell</small></div><i>Done</i></li>
+          <li class="done"><span>02</span><div><b>Launcher core</b><small>Modrinth · Instanzen · Installation</small></div><i>Done</i></li>
+          <li class="active"><span>03</span><div><b>Account verification</b><small>Microsoft/Xbox production approval</small></div><i>Now</i></li>
+          <li><span>04</span><div><b>Signed public beta</b><small>Windows signing · macOS notarization</small></div><i>Next</i></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="cta-section shell reveal">
+      <div><p class="eyebrow">SEE IT IN MOTION</p><h2>FrostWalker,<br>in 45 seconds.</h2></div>
+      <a class="round-play" href="/trailer/" aria-label="Interaktiven Trailer öffnen"><span>PLAY</span><i>▶</i></a>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <a class="brand" href="#top"><img src="/frostwalker-mark.svg" alt="" width="30" height="30"><span>FrostWalker</span></a>
+    <p>Independent launcher project · Switzerland · 2026</p>
+    <a data-github href="https://github.com/TheSocialNetwork35/frostwalker">GitHub ↗</a>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+</html>
