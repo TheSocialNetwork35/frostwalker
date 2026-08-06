@@ -2,6 +2,14 @@
 
 FrostWalker ist ein schneller und besonders einfach bedienbarer Minecraft-Java-Launcher für Windows und macOS. Er verbindet eine kuratierte Performance-Grundlage mit der Modrinth-Bibliothek, Microsoft-Anmeldung, Skin-Verwaltung und einer ruhigen, hochwertigen Oberfläche.
 
+## Öffentliche Projektpräsenz
+
+- [FrostWalker Projektseite](https://frostwalker.pages.dev/)
+- [Interaktiver Produkttrailer](https://frostwalker.pages.dev/trailer/)
+- [Öffentliche Entwicklung und Dokumentation](https://github.com/TheSocialNetwork35/frostwalker)
+
+FrostWalker ist ein unabhängiges Launcher-Projekt in aktiver Entwicklung und kein veröffentlichtes Spiel. Die öffentliche Präsentation dokumentiert Produktvision, Entwicklungsstand und technische Arbeit transparent.
+
 > Status: **Native Alpha 0.3**. Die Tauri-/Rust-Desktop-App bindet die echte Modrinth-API ein, verwaltet isolierte Instanzen und enthält den Installations- und Startpfad für Minecraft Java mit Fabric. Microsoft OAuth, Crafty-Skin-Rendering, lokale Profile und die sichtbare Startsequenz sind integriert. Die Microsoft-App-ID muss vor einem Release-Build noch hinterlegt und der vollständige Login-/Startweg mit einem Minecraft-Konto abgenommen werden.
 
 ## Desktop-App
